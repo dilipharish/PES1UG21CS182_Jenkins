@@ -21,7 +21,7 @@ pipeline {
         // 2. sh 'g++ main.cpp -o output' - This step builds the code using the g++ compiler. The 'main.cpp' file is compiled into an executable named 'output'.
         stage('Build') {
             steps {
-                build 'PES1UG21CS157-1'
+                build 'PES1UG21CS182-1'
                 sh 'g++ main.cpp -o output'
             }
         }
